@@ -95,6 +95,7 @@ header {
     color: rgb(134, 133, 133);
     margin-top: 40px;
     width: 50%;
+    text-align: justify;
 }
 
 .banner-button {
@@ -153,9 +154,22 @@ header {
     .banner-container {
         width: 90%;
         margin-left: 20px;
+        margin-top: 50px;
+
     }
 
-    .download {
-        margin-left: 40px;
+    .banner-title {
+        font-size: 35px;
+        line-height: 120%;
+
+    }
+
+    .banner-description {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .banner-button-content {
+        display: flex;
     }
 }
