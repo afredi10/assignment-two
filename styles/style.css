@@ -35,6 +35,10 @@ header {
     justify-content: space-between;
     margin-left: 170px;
     margin-right: 170px;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
     margin-top: 45px;
     border: 1px solid fuchsia;
 }
@@ -80,6 +84,10 @@ header {
     justify-content: space-between;
     margin-left: 170px;
     margin-right: 170px;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
     margin-top: 90px;
     color: white;
     border: 1px solid rgb(228, 131, 4);
@@ -143,8 +151,8 @@ header {
 
 
     position: absolute;
-    margin-top: 300px;
-    margin-left: -340px;
+    margin-top: 30%;
+    margin-left: -34%;
 
 }
 
@@ -185,8 +193,8 @@ header {
     background: rgba(48, 48, 48, 0.54);
 
     position: absolute;
-    margin-top: 100px;
-    margin-left: -100px;
+    margin-top: 10%;
+    margin-left: -10%;
 
     text-align: left;
     padding: 5px 0 20px 20px;
@@ -249,44 +257,53 @@ header {
         display: flex;
     }
 
-
+    /* .banner-container {
+        position: relative;
+    }
+     */
     #card-button {
         /* padding: 10px 25px; */
         width: 140px;
         height: 65px;
         border: none;
-    
+
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px;
-    
+
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
         background: rgba(48, 48, 48, 0.54);
-    
-    
+
+
         /* position: absolute; */
-        margin-top: -300px;
-        margin-left: 0px;
-    
+        /* margin-top: -300px;
+        margin-left: 0px; */
+
+        position: absolute;
+        margin-top: -80%;
+        margin-left: 0%;
+
     }
 
     .card-button-two {
-        width: 150px;
+        width: 130px;
         height: 70px;
 
         border: none;
         border: 1px solid rgba(255, 255, 255, 0.1);
 
         border-radius: 5px;
-        margin-top: -490px;
-        margin-left: 190px;
-        padding: 5px 0 20px 20px;
+        /* margin-top: -490px;
+        margin-left: 190px; */
+
+        margin-top: -140%;
+        margin-left: 60%;
+
+        padding: 10px 0 20px 20px;
 
         background: rgba(48, 48, 48, 0.54);
-        /* position: relative; */
-
     }
 
     .button-five {
