@@ -295,8 +295,8 @@ header {
 }
 
 .run-image {
-    width: 380px;
-    height: 260px;
+    width: 40%;
+    height: 30%;
     position: relative;
     overflow: hidden;
     /* border: 1px solid goldenrod; */
@@ -342,8 +342,8 @@ header {
 }
 
 .team-image {
-    width: 315px;
-    height: 265px;
+    width: 80%;
+    height: 70%;
     position: relative;
     overflow: hidden;
     margin-top: 20px;
