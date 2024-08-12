@@ -25,9 +25,8 @@ header {
     width: 100%;
     height: 100%;
 
-
-    background: linear-gradient(to left, black, #2d2e2d);
-    /* margin: 0 auto; */
+    /* background-image: linear-gradient(to bottom, rgb(209, 13, 13), rgb(9, 153, 45), rgb(28, 8, 141)); */
+    background-image: linear-gradient(to bottom, black, rgb(32, 32, 32), black);
     border: 3px solid red;
 }
 
@@ -80,6 +79,7 @@ header {
     padding: 0 15px;
 
 }
+
 /* navbar styles end here */
 
 
@@ -123,7 +123,7 @@ header {
     padding: 14px 35px 14px 35px;
 
     color: white;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 14px;
     margin-top: 40px;
 
@@ -132,7 +132,7 @@ header {
 
 .download {
     background-color: rgba(0, 0, 0, 0.356);
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.753);
     color: white;
     margin-left: 15px;
 }
@@ -212,6 +212,7 @@ header {
     font-size: 35px;
     color: white;
 }
+
 /* banner styles end here */
 /* header styles end here */
 
@@ -219,18 +220,25 @@ header {
 /* responsive styles start here */
 @media screen and (max-width: 576px) {
 
+    /* share responsive styles */
     .navbar,
-
     .banner-container {
         flex-direction: column;
     }
 
+    /* header responsive styles start here */
+
+    /* navbar responsive style start here */
     .navbar {
         width: 90%;
         display: flex;
         flex-direction: row;
-        margin-left: 20px;
-        margin-right: 20px;
+        /* margin-left: 20px; */
+        /* margin-right: 20px; */
+        /* margin-top: 60px; */
+
+        margin-left: 4%;
+        margin-right: 4%;
         margin-top: 60px;
     }
 
@@ -243,85 +251,66 @@ header {
         font-size: 30px;
         color: white !important;
     }
+    /* navbar responsive style end here */
 
+    /* banner responsive style start here */
     .banner-container {
         width: 90%;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         margin-top: 50px;
 
+        margin-left: 4%;
+        margin-right: 4%;
     }
 
+    .miama-font {
+        font-size: 70px;
+    }
+    
     .banner-title {
-        font-size: 35px;
+        font-size: 33px;
         line-height: 120%;
-
     }
 
     .banner-description {
-        width: 80%;
+        width: 60%;
         text-align: justify;
+        font-size: 13px;
+        margin-top: 30px;
     }
 
     .banner-button-content {
         display: flex;
+        justify-content: space-evenly;
     }
 
-    /* .banner-container {
-        position: relative;
-    }
-     */
+    /* banner card-button 350+ --> responsive style here */
     #card-button {
-        /* padding: 10px 25px; */
-        width: 140px;
-        height: 65px;
-        border: none;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 10px;
-        background: rgba(48, 48, 48, 0.54);
-
-
-        /* position: absolute; */
-        /* margin-top: -300px;
-        margin-left: 0px; */
-
-        position: absolute;
-        margin-top: -80%;
-        margin-left: 0%;
-
-    }
-
-    .card-button-two {
         width: 130px;
-        height: 70px;
-
-        border: none;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-
-        border-radius: 5px;
-        /* margin-top: -490px;
-        margin-left: 190px; */
-
-        margin-top: -140%;
-        margin-left: 60%;
-
-        padding: 10px 0 20px 20px;
-
-        background: rgba(48, 48, 48, 0.54);
+        height: 60px;
+        
+        margin-top: -100%;
+        margin-left: 5%;
     }
 
-    .button-five {
-        font-weight: 900;
-        font-size: 25px;
-        color: white;
+    /* banner card-button 500+ --> responsive style here */
+    .card-button-two {
+        width: 145px;
+        height: 75px;
+
+        margin-top: -145%;
+        margin-left: 55%;
     }
 
     .button-four {
-        font-size: 8px;
+        font-size: 10px;
     }
+
+    .button-five {
+        font-size: 30px;
+    }
+
+    /* banner responsive style end here */
+
+    /* header responsive styles end here */
 }
