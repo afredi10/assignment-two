@@ -253,16 +253,17 @@ header {
 
 /* hsjfvhjidhgunjikgh */
 .habit-title {
-    max-width: 55%;
+    width: 90%;
     /* text-align: center; */
     margin: 0 auto;
     text-align: center;
 
-    margin-bottom: 55px;
-
+    margin-bottom: 60px;
 }
 
-
+.section-description {
+    margin-top: 20px;
+}
 
 .habit-image img {
     border-radius: 50%;
@@ -330,7 +331,7 @@ header {
     margin-right: 10%;
     margin-top: 80px;
     margin-bottom: 30px;
-    border: 1px solid rgb(10, 88, 177);
+    /* border: 1px solid rgb(10, 88, 177); */
     color: white;
 
 }
@@ -389,40 +390,30 @@ footer {
     background: rgba(255, 255, 255, 0.1);
     padding: 60px 180px 160px 180px;
 
-    border: 1px solid hotpink;
+    /* border: 1px solid hotpink; */
 }
 
 
 .footer-header {
     margin-bottom: 35px;
+    color: white;
 }
 
 .footer-paragraph {
     font-size: 12px;
-    margin-top: 20px;
-}
-
-.get-start {
-    color: white;
-}
-
-.get-start ul {
-    text-decoration: none;
-    list-style: none;
 }
 
 .footer-links {
     display: grid;
     grid-template-columns: 1fr;
     gap: 15px;
+
+    text-decoration: none;
+    list-style: none;
 }
 
 .footer-link {
     color: rgba(255, 255, 255, 0.5);
-}
-
-.fitness-title {
-    font-size: 5px;
 }
 
 #footer-section {
@@ -619,67 +610,49 @@ footer {
 
     #footer-section {
         grid-template-columns: 1fr;
-        text-align: left;
         padding: 10px 10px 10px 10px;
+        justify-items: left;
 
     }
 
-
     footer {
         width: 100%;
-        height: 800px;
+        height: 880px;
        
         padding: 0px 20px;
 
         border: 1px solid hotpink;
-        text-align: left;
-
     }
 
-
-    .footer-header {
-        margin-bottom: 35px;
+    #footer-section .fitness {
+        margin-top: 37px;
+        margin-bottom: 15px;
     }
 
     .footer-paragraph {
-        font-size: 12px;
-        margin-top: 20px;
+        font-size: 13px;
+        margin-bottom: 30px;
+        width: 80%;
     }
 
-    .get-start {
-        color: white;
+    .footer-header {
+        margin-bottom: 35px;
+        margin-top: 25px;
+        font-size: 30px;
     }
 
-    .footer-links {
-        gap: 15px;
+    .footer-link {
+        font-size: 22px;
     }
-
-    .fitness-title {
-        font-size: 5px;
-    }
-
-    
 
     .horizonal-line {
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        ;
-        margin-top: 65px;
-    }
-
-    .footer-last-text {
-        text-align: left;
-        font-size: 12px;
-        margin-top: 35px;
-        /* margin-bottom: 35px; */
-    }
-
-    .footer-links {
-        display: grid;
-        grid-template-columns: 1fr;
+        margin-top: 55px;
     }
     
-    .footer-link {
-        color: rgba(219, 14, 14, 0.5);
+    .footer-last-text {
+        text-align: left;
+        font-size: 16px;
+        margin-top: 40px;
+        margin-bottom: 35px;
     }
-
 }
