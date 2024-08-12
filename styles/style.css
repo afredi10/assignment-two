@@ -324,6 +324,126 @@ header {
     margin-bottom: 20px;
 }
 
+
+.team {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(10, 88, 177);
+    color: white;
+
+}
+
+.team-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-image {
+    width: 315px;
+    height: 265px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 18px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.team-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inside-text {
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    color: white;
+}
+
+.team-paragraph {
+    font-size: 14px;
+    margin-top: 2%;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    justify-items: center;
+    gap: 0%;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+}
+
+
+footer {
+    width: 100%;
+    height: 410px;
+    margin-top: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 60px 180px 160px 180px;
+
+    border: 1px solid hotpink;
+}
+
+
+.footer-header {
+    margin-bottom: 35px;
+}
+
+.footer-paragraph {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.get-start {
+    color: white;
+}
+
+.get-start ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fitness-title {
+    font-size: 5px;
+}
+
+#footer-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.horizonal-line {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    ;
+    margin-top: 65px;
+}
+
+.footer-last-text {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 35px;
+    /* margin-bottom: 35px; */
+}
+
 /* responsive styles start here */
 @media screen and (max-width: 576px) {
 
@@ -485,4 +605,81 @@ header {
         padding: 14px 50px 14px 50px;
         width: 100%;
     }
+
+
+    .team-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 70px;
+    }
+
+    #footer-section {
+        grid-template-columns: 1fr;
+        text-align: left;
+        padding: 10px 10px 10px 10px;
+
+    }
+
+
+    footer {
+        width: 100%;
+        height: 800px;
+       
+        padding: 0px 20px;
+
+        border: 1px solid hotpink;
+        text-align: left;
+
+    }
+
+
+    .footer-header {
+        margin-bottom: 35px;
+    }
+
+    .footer-paragraph {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .get-start {
+        color: white;
+    }
+
+    .footer-links {
+        gap: 15px;
+    }
+
+    .fitness-title {
+        font-size: 5px;
+    }
+
+    
+
+    .horizonal-line {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        ;
+        margin-top: 65px;
+    }
+
+    .footer-last-text {
+        text-align: left;
+        font-size: 12px;
+        margin-top: 35px;
+        /* margin-bottom: 35px; */
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-link {
+        color: rgba(219, 14, 14, 0.5);
+    }
+
 }
