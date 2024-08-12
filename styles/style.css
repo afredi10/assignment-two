@@ -12,7 +12,9 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-header, body, footer {
+header,
+body,
+footer {
     background-image: linear-gradient(to bottom, black, black, black)
 }
 
@@ -35,7 +37,7 @@ header {
 
     /* background-image: linear-gradient(to bottom, black, rgb(32, 32, 32), black); */
 
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 /* navbar styles start here */
@@ -49,7 +51,7 @@ header {
     margin-right: 10%;
 
     margin-top: 45px;
-    border: 1px solid fuchsia;
+    /* border: 1px solid fuchsia; */
 }
 
 .nav-link {
@@ -64,7 +66,7 @@ header {
     align-items: center;
     list-style: none;
     gap: 30px;
-    border: 1px solid rgb(8, 207, 108);
+    /* border: 1px solid rgb(8, 207, 108); */
 }
 
 .icon {
@@ -105,7 +107,7 @@ header {
 
     margin-top: 90px;
     color: white;
-    border: 1px solid rgb(228, 131, 4);
+    /* border: 1px solid rgb(228, 131, 4); */
 
     position: relative;
 }
@@ -229,7 +231,7 @@ header {
     margin-right: 10%;
 
     margin-top: 80px;
-    border: 1px solid rgb(9, 230, 28);
+    /* border: 1px solid rgb(9, 230, 28); */
     color: white;
 }
 
@@ -257,15 +259,10 @@ header {
     text-align: center;
 
     margin-bottom: 55px;
-    
+
 }
 
-.section-description {
-    font-weight: 400;
-    font-size: 14px;
 
-    margin-top: 12px;
-}
 
 .habit-image img {
     border-radius: 50%;
@@ -275,6 +272,56 @@ header {
 .habit-image-description {
     font-size: 12px;
     margin-top: 10px;
+}
+
+
+.run-easily {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 90px;
+    /* border: 1px solid rgb(230, 9, 145); */
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+    /* box-shadow: 0 4px 30px 0 rgba(211, 7, 7, 0.06); */
+    background: rgb(34, 34, 34);
+
+    padding: 30px;
+    border-radius: 16px;
+
+    margin-bottom: 30px;
+}
+
+.run-image {
+    width: 380px;
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid goldenrod; */
+
+    border-radius: 16px;
+
+}
+
+.run-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    transform: scale(2.8) translate(-55px, 30px);
+}
+
+.run-text {
+    width: 50%;
+    text-align: justify;
+}
+
+.run-title {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 /* responsive styles start here */
@@ -311,6 +358,7 @@ header {
         font-size: 30px;
         color: white !important;
     }
+
     /* navbar responsive style end here */
 
     /* banner responsive style start here */
@@ -326,7 +374,7 @@ header {
     .miama-font {
         font-size: 70px;
     }
-    
+
     .banner-title {
         font-size: 33px;
         line-height: 120%;
@@ -348,7 +396,7 @@ header {
     #card-button {
         width: 130px;
         height: 60px;
-        
+
         margin-top: -100%;
         margin-left: 5%;
     }
@@ -385,14 +433,56 @@ header {
     }
 
     .habit-container {
-        
-        
-    
+
+
+
         margin-top: 20px;
     }
 
-    section-title {
+    .section-title {
         font-weight: 900;
         font-size: 32px;
+    }
+
+
+    .run-easily {
+        flex-direction: column;
+
+        margin-left: 4%;
+        margin-right: 4%;
+
+        padding: 25px;
+    }
+
+    .run-text {
+        width: 100%;
+        text-align: left;
+    }
+
+    .run-description {
+        line-height: 140%;
+    }
+
+    .run-image {
+        width: 100%;
+        height: 100%;
+
+        border-radius: 16px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .run-image img {
+        transform: scale(1.5) translate(-40px, 30px);
+        border-radius: 16px;
+    }
+
+    .run-button-content {
+        text-align: center;
+    }
+
+    .run-button {
+        padding: 14px 50px 14px 50px;
+        width: 100%;
     }
 }
