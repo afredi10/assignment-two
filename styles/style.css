@@ -20,6 +20,7 @@ body {
 
 /* shared styles */
 
+/* header styles start here */
 header {
     width: 100%;
     height: 100%;
@@ -30,11 +31,12 @@ header {
     border: 3px solid red;
 }
 
+/* navbar styles start here */
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin-left: 170px;
-    margin-right: 170px;
+    /* margin-left: 170px;
+    margin-right: 170px; */
 
     margin-left: 10%;
     margin-right: 10%;
@@ -78,12 +80,17 @@ header {
     padding: 0 15px;
 
 }
+/* navbar styles end here */
 
+
+/* banner styles start here */
+
+/* banner container style start here */
 .banner-container {
     display: flex;
     justify-content: space-between;
-    margin-left: 170px;
-    margin-right: 170px;
+    /* margin-left: 170px;
+    margin-right: 170px; */
 
     margin-left: 10%;
     margin-right: 10%;
@@ -95,6 +102,7 @@ header {
     position: relative;
 }
 
+/* banner contents style start here */
 .banner-title {
     font-weight: 900;
     font-size: 60px;
@@ -129,11 +137,13 @@ header {
     margin-left: 15px;
 }
 
+/* banner image style start here */
 .banner-image img {
     width: 100%;
     height: 100%;
 }
 
+/* banner card-button 350+ style start here */
 #card-button {
     /* padding: 10px 25px; */
     width: 195px;
@@ -179,10 +189,7 @@ header {
     color: rgb(134, 133, 133);
 }
 
-/* .card-button-text {
-    gap: 20px;
-} */
-
+/* banner card-button 500+ style start here */
 .card-button-two {
     width: 160px;
     height: 80px;
@@ -198,8 +205,6 @@ header {
 
     text-align: left;
     padding: 5px 0 20px 20px;
-
-
 }
 
 .button-five {
@@ -207,7 +212,11 @@ header {
     font-size: 35px;
     color: white;
 }
+/* banner styles end here */
+/* header styles end here */
 
+
+/* responsive styles start here */
 @media screen and (max-width: 576px) {
 
     .navbar,
