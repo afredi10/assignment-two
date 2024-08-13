@@ -250,6 +250,7 @@ header {
 .habit-images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    /* border: 1px solid hotpink; */
 }
 
 /* hsjfvhjidhgunjikgh */
@@ -277,6 +278,35 @@ header {
     margin-top: 10px;
 }
 
+.healthy-food {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    margin-top: 80px;
+    /* border: 1px solid rgb(9, 230, 28); */
+    color: white;
+}
+
+.food-container {
+
+    max-width: 220px;
+    max-height: 265px;
+    text-align: center;
+
+    /* border: 5px solid teal; */
+    position: relative;
+}
+
+.food-container img {
+    width: 90%;
+    height: 70%;
+}
+
+.healthy-food-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
 
 .run-easily {
     margin-left: 10%;
@@ -569,7 +599,6 @@ footer {
 
 .horizonal-line {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    ;
     margin-top: 65px;
 }
 
@@ -805,7 +834,7 @@ footer {
         color: white;
         margin-left: 4%;
         margin-right: 4%;
-    
+
         width: 100%;
         margin-top: 70px;
         margin-bottom: 88px;
