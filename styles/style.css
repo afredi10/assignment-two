@@ -325,6 +325,151 @@ header {
     margin-bottom: 20px;
 }
 
+.bmi-title {
+    color: white;
+    margin-left: 30%;
+    margin-right: 10%;
+
+    width: 40%;
+    margin-top: 70px;
+    margin-bottom: 88px;
+    text-align: left;
+}
+
+
+.bmi {
+    width: 100%;
+
+    margin-top: 80px;
+    border: 3px solid red;
+    color: white;
+    background: rgb(34, 34, 34);
+
+
+}
+
+.bmi-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-table {
+    width: 200%;
+    /* margin: 20px auto; */
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.bmi-table-header {
+    width: 200%;
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.bmi th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    text-align: left;
+}
+
+.bmi th {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.bmi td {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi tr:hover {
+    background-color: #7c2027;
+}
+
+.bmi-input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.form-group {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.form-group input[type="number"],
+.form-group select {
+    width: 100%;
+    padding: 12px 60px 12px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: rgb(163, 161, 161);
+    background: rgba(56, 55, 55, 0.87);
+}
+
+#sex {
+    width: 100%;
+    padding: 12px 60px 12px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: rgb(129, 128, 128);
+    background: rgba(56, 55, 55, 0.87);
+}
+
+#activity {
+    width: 203%;
+    padding: 12px 60px 12px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: rgb(129, 128, 128);
+    background: rgba(56, 55, 55, 0.87);
+}
+
+.calculate-button {
+
+    background-color: #E6533C;
+    border: none;
+    border-radius: 40px;
+    padding: 18px 20px 18px 20px;
+
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 45px;
+
+    cursor: pointer;
+}
+
+.calculate-paragraph {
+    width: 100%;
+    margin-top: 14px;
+    margin-bottom: 32px;
+
+}
+
+.form-container {
+    margin-left: 30%;
+}
+
+.form-container h2 {
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 26px;
+}
 
 .team {
     margin-left: 10%;
@@ -618,7 +763,7 @@ footer {
     footer {
         width: 100%;
         height: 880px;
-       
+
         padding: 0px 20px;
 
         border: 1px solid hotpink;
@@ -648,7 +793,7 @@ footer {
     .horizonal-line {
         margin-top: 55px;
     }
-    
+
     .footer-last-text {
         text-align: left;
         font-size: 16px;
