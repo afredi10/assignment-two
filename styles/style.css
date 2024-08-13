@@ -341,11 +341,9 @@ header {
     width: 100%;
 
     margin-top: 80px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     color: white;
     background: rgb(34, 34, 34);
-
-
 }
 
 .bmi-container {
@@ -799,5 +797,39 @@ footer {
         font-size: 16px;
         margin-top: 40px;
         margin-bottom: 35px;
+    }
+
+
+    .bmi-title {
+        color: white;
+        margin-left: 4%;
+        margin-right: 4%;
+    
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 88px;
+        text-align: left;
+    }
+
+    .bmi {
+        width: 100%;
+    }
+
+    .bmi-container {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .bmi-table {
+        width: 100%;
+        /* margin: 20px auto; */
+        border-collapse: collapse;
+        margin-top: 40px;
+    }
+
+    .form-container {
+        margin-left: 0%;
     }
 }
