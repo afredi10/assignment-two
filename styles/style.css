@@ -123,7 +123,8 @@ header {
     color: rgba(255, 255, 255, 0.5);
     margin-top: 40px;
     width: 50%;
-    text-align: justify;
+    text-align: left;
+    font-size: 14px;
 }
 
 .banner-button {
@@ -263,6 +264,7 @@ header {
 
 .section-description {
     margin-top: 20px;
+    font-size: 14px;
 }
 
 .habit-image img {
@@ -504,7 +506,7 @@ td {
 
 .inside-text {
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 3%;
     color: white;
 }
@@ -636,7 +638,6 @@ footer {
 
     .banner-description {
         width: 60%;
-        text-align: justify;
         font-size: 13px;
         margin-top: 30px;
     }
@@ -764,7 +765,7 @@ footer {
 
         padding: 0px 20px;
 
-        border: 1px solid hotpink;
+        /* border: 1px solid hotpink; */
     }
 
     #footer-section .fitness {
