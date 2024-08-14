@@ -25,6 +25,19 @@ footer {
 }
 
 /* shared styles */
+.hover-button:hover {
+    background-color: rgb(150, 41, 7);
+}
+
+.description-color {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.run-title {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
 
 /* header styles start here */
 header {
@@ -40,6 +53,7 @@ header {
     /* border: 3px solid red; */
 }
 
+
 /* navbar styles start here */
 .navbar {
     display: flex;
@@ -54,23 +68,21 @@ header {
     /* border: 1px solid fuchsia; */
 }
 
-.nav-link {
-    text-decoration: none;
-    color: rgb(199, 199, 199);
-    font-weight: 400;
-    font-size: 16px;
-}
-
 .nav-links {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 30px;
-    /* border: 1px solid rgb(8, 207, 108); */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 35px;
+
 }
 
-.icon {
-    display: none;
+.nav-link {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .fitness {
@@ -88,6 +100,10 @@ header {
     background: rgb(230, 83, 60);
     padding: 0 15px;
 
+}
+
+.icon {
+    display: none;
 }
 
 /* navbar styles end here */
@@ -148,7 +164,15 @@ header {
     margin-left: 15px;
 }
 
-/* banner image style start here */
+.hover-download:hover {
+    background-color: white;
+    color: black;
+}
+
+/* banner contents style end here */
+
+
+/* for banner image style */
 .banner-image img {
     width: 100%;
     height: 100%;
@@ -170,7 +194,6 @@ header {
     border-radius: 10px;
     background: rgba(48, 48, 48, 0.54);
 
-
     position: absolute;
     margin-top: 30%;
     margin-left: -34%;
@@ -188,6 +211,10 @@ header {
     /* position: relative; */
 }
 
+.icon-video {
+    display: none;
+}
+
 .button-three {
     color: white;
     font-weight: 900;
@@ -199,6 +226,8 @@ header {
     font-size: 14;
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* banner card-button 350+ style end here */
 
 /* banner card-button 500+ style start here */
 .card-button-two {
@@ -224,9 +253,16 @@ header {
     color: white;
 }
 
+/* banner card-button 500+ style end here */
+
 /* banner styles end here */
+
 /* header styles end here */
 
+
+/* main part styles start here */
+
+/* habit section styles start here */
 .habit-container {
     margin-left: 10%;
     margin-right: 10%;
@@ -236,36 +272,32 @@ header {
     color: white;
 }
 
-/* shared styles */
-.description-color {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.habit-image {
-    max-width: 220px;
-    max-height: 265px;
-    text-align: center;
-}
-
-.habit-images {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* border: 1px solid hotpink; */
-}
-
-/* hsjfvhjidhgunjikgh */
+/* habit section title style start here */
 .habit-title {
     width: 90%;
-    /* text-align: center; */
     margin: 0 auto;
     text-align: center;
-
     margin-bottom: 60px;
 }
 
 .section-description {
     margin-top: 20px;
     font-size: 14px;
+}
+
+/* habit section title style start here */
+
+/* habit section images styles start here */
+.habit-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 1px solid hotpink; */
+}
+
+.habit-image {
+    max-width: 220px;
+    max-height: 265px;
+    text-align: center;
 }
 
 .habit-image img {
@@ -278,6 +310,12 @@ header {
     margin-top: 10px;
 }
 
+/* habit section images styles end here */
+
+/* habit section styles end here */
+
+
+/* healthy food section styles start here */
 .healthy-food {
     margin-left: 10%;
     margin-right: 10%;
@@ -287,12 +325,17 @@ header {
     color: white;
 }
 
-.food-container {
+/* healthy food images styles start here */
+.healthy-food-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
 
+.food-container {
     max-width: 220px;
     max-height: 265px;
     text-align: center;
-
     /* border: 5px solid teal; */
     position: relative;
 }
@@ -302,12 +345,12 @@ header {
     height: 70%;
 }
 
-.healthy-food-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-}
+/* healthy food images styles end here */
 
+/* healthy food section styles end here */
+
+
+/* run easily section styles start here */
 .run-easily {
     margin-left: 10%;
     margin-right: 10%;
@@ -323,9 +366,19 @@ header {
 
     padding: 30px;
     border-radius: 16px;
-
     margin-bottom: 30px;
 }
+
+.run-text {
+    width: 50%;
+    text-align: justify;
+}
+
+/* .run-title {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+}  = shared style এ দিয়েছি। */
 
 .run-image {
     width: 40%;
@@ -346,17 +399,13 @@ header {
     transform: scale(2.8) translate(-55px, 30px);
 }
 
-.run-text {
-    width: 50%;
-    text-align: justify;
-}
+/* run easily section styles end here */
 
-.run-title {
-    font-weight: 900;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
 
+
+/* BMI calculate section (myself research and created) styles start here */
+
+/* BMI title create styles start here  */
 .bmi-title {
     color: white;
     margin-left: 30%;
@@ -371,7 +420,6 @@ header {
 
 .bmi {
     width: 100%;
-
     margin-top: 80px;
     /* border: 3px solid red; */
     color: white;
@@ -387,6 +435,7 @@ header {
     justify-content: space-between;
 }
 
+/* BMI chart create styles start here */
 .bmi-table {
     width: 200%;
     /* margin: 20px auto; */
@@ -401,16 +450,9 @@ header {
     font-size: 26px;
 }
 
-.bmi th,
-td {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 8px;
-    text-align: left;
-}
-
 .bmi th {
-    font-size: 16px;
     font-weight: 500;
+    font-size: 16px;
     color: rgb(255, 255, 255);
 }
 
@@ -420,8 +462,39 @@ td {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.bmi th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    text-align: left;
+}
+
+.bmi .bmi-header:hover {
+    background-color: #013c5e;
+}
+
 .bmi tr:hover {
-    background-color: #7c2027;
+    background-color: #a7363f;
+}
+
+/* BMI chart create styles end here */
+
+/* BMI input and option form create styles start here */
+.form-container {
+    margin-left: 30%;
+}
+
+.form-container h2 {
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.calculate-paragraph {
+    width: 100%;
+    margin-top: 14px;
+    margin-bottom: 32px;
+
 }
 
 .bmi-input {
@@ -458,6 +531,7 @@ td {
     background: rgba(56, 55, 55, 0.87);
 }
 
+
 #activity {
     width: 203%;
     padding: 12px 60px 12px 20px;
@@ -480,27 +554,15 @@ td {
     font-size: 20px;
     margin-top: 32px;
     margin-bottom: 45px;
-
     cursor: pointer;
 }
 
-.calculate-paragraph {
-    width: 100%;
-    margin-top: 14px;
-    margin-bottom: 32px;
+/* BMI input and option form create styles end here */
 
-}
+/* BMI calculate section (myself research and created) styles end here */
 
-.form-container {
-    margin-left: 30%;
-}
 
-.form-container h2 {
-    margin-top: 30px;
-    font-weight: 900;
-    font-size: 26px;
-}
-
+/* team section styles start here  */
 .team {
     margin-left: 10%;
     margin-right: 10%;
@@ -508,13 +570,25 @@ td {
     margin-bottom: 30px;
     /* border: 1px solid rgb(10, 88, 177); */
     color: white;
-
 }
 
+/* team section title style start here  */
 .team-title {
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+}
+
+/* team section images style start here  */
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    justify-items: center;
+    gap: 0%;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
 }
 
 .team-image {
@@ -522,13 +596,11 @@ td {
     height: 70%;
     position: relative;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 18px;
-    margin-right: 0px;
-    margin-bottom: 20px;
 }
 
-.team-images img {
+.team-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -546,36 +618,35 @@ td {
     margin-top: 2%;
 }
 
-.team-images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+/* team section styles end here  */
 
-    justify-items: center;
-    gap: 0%;
-
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 18px;
-}
+/* main part end here */
 
 
+
+/* footer section styles start here  */
 footer {
     width: 100%;
     height: 410px;
     margin-top: 80px;
     background: rgba(255, 255, 255, 0.1);
     padding: 60px 180px 160px 180px;
-
     /* border: 1px solid hotpink; */
 }
 
-
-.footer-header {
-    margin-bottom: 35px;
-    color: white;
+#footer-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
 }
 
 .footer-paragraph {
     font-size: 12px;
+}
+
+.footer-header {
+    margin-bottom: 35px;
+    color: white;
 }
 
 .footer-links {
@@ -591,12 +662,6 @@ footer {
     color: rgba(255, 255, 255, 0.5);
 }
 
-#footer-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-}
-
 .horizonal-line {
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: 65px;
@@ -609,7 +674,14 @@ footer {
     /* margin-bottom: 35px; */
 }
 
+/* footer section styles end here  */
+
+
+
+
 /* responsive styles start here */
+
+/* small device responsive start here*/
 @media screen and (max-width: 576px) {
 
     /* share responsive styles */
@@ -625,6 +697,7 @@ footer {
         width: 90%;
         display: flex;
         flex-direction: row;
+
         /* margin-left: 20px; */
         /* margin-right: 20px; */
         /* margin-top: 60px; */
@@ -651,7 +724,6 @@ footer {
         width: 90%;
         /* margin-left: 20px; */
         margin-top: 50px;
-
         margin-left: 4%;
         margin-right: 4%;
     }
@@ -676,7 +748,17 @@ footer {
         justify-content: space-evenly;
     }
 
-    /* banner card-button 350+ --> responsive style here */
+    .circle {
+        display: none;
+    }
+
+    .icon-video {
+        display: contents;
+        font-size: 30px;
+        color: #E6533C !important;
+    }
+
+    /* banner card-button 350+ responsive style here */
     #card-button {
         width: 130px;
         height: 60px;
@@ -685,7 +767,7 @@ footer {
         margin-left: 5%;
     }
 
-    /* banner card-button 500+ --> responsive style here */
+    /* banner card-button 500+ responsive style here */
     .card-button-two {
         width: 145px;
         height: 75px;
@@ -702,25 +784,18 @@ footer {
         font-size: 30px;
     }
 
-    /* banner responsive style end here */
+    /* banner responsive styles end here */
 
     /* header responsive styles end here */
 
-    .habit-images {
-        grid-template-columns: repeat(1, 1fr);
-        justify-items: center;
-        gap: 35px;
+
+    /* habit section responsive styles start here */
+    .habit-container {
+        margin-top: 20px;
     }
 
     .habit-title {
-        max-width: 95%;
-    }
-
-    .habit-container {
-
-
-
-        margin-top: 20px;
+        width: 100%;
     }
 
     .section-title {
@@ -728,7 +803,16 @@ footer {
         font-size: 32px;
     }
 
+    .habit-images {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 35px;
+    }
 
+    /* habit section responsive styles end here */
+
+
+    /* run easily section responsive styles start here */
     .run-easily {
         flex-direction: column;
 
@@ -770,7 +854,48 @@ footer {
         width: 100%;
     }
 
+    /* run easily section responsive styles end here */
 
+
+    /* BMI calculate section (myself research and created) responsive styles start here */
+
+    .bmi-title {
+        color: white;
+        margin-left: 4%;
+        margin-right: 4%;
+
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 88px;
+        text-align: left;
+    }
+
+    .bmi {
+        width: 100%;
+    }
+
+    .bmi-container {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .bmi-table {
+        width: 100%;
+        /* margin: 20px auto; */
+        border-collapse: collapse;
+        margin-top: 40px;
+    }
+
+    .form-container {
+        margin-left: 0%;
+    }
+
+    /* BMI calculate section (myself research and created) responsive styles end here */
+
+
+    /* team section styles start here */
     .team-images {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -781,6 +906,10 @@ footer {
         margin-top: 70px;
     }
 
+    /* team section styles end here */
+
+
+    /* footer section styles start here */
     #footer-section {
         grid-template-columns: 1fr;
         padding: 10px 10px 10px 10px;
@@ -791,9 +920,7 @@ footer {
     footer {
         width: 100%;
         height: 880px;
-
         padding: 0px 20px;
-
         /* border: 1px solid hotpink; */
     }
 
@@ -829,37 +956,9 @@ footer {
         margin-bottom: 35px;
     }
 
-
-    .bmi-title {
-        color: white;
-        margin-left: 4%;
-        margin-right: 4%;
-
-        width: 100%;
-        margin-top: 70px;
-        margin-bottom: 88px;
-        text-align: left;
-    }
-
-    .bmi {
-        width: 100%;
-    }
-
-    .bmi-container {
-        margin-left: 4%;
-        margin-right: 4%;
-        margin-top: 30px;
-        flex-direction: column;
-    }
-
-    .bmi-table {
-        width: 100%;
-        /* margin: 20px auto; */
-        border-collapse: collapse;
-        margin-top: 40px;
-    }
-
-    .form-container {
-        margin-left: 0%;
-    }
+    /* footer section styles end here */
 }
+
+/* small device responsive end here*/
+
+/* responsive styles end here */

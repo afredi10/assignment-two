@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-2</title>
 
+    <!-- icon link for hamburger -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- icon link for video beside 350+ in small device -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <link rel="stylesheet" href="styles/style.css">
@@ -20,7 +24,7 @@
 
             <!-- ul.nav-links>li.nav-items*4>a.nav-link = shortcut-->
             <ul class="nav-links">
-                <li class="nav-items"><a href="" class="home nav-link">Home</a></li>
+                <li class="nav-items"><a href="" class="home nav-link hover-button">Home</a></li>
                 <li class="nav-items"><a href="" class="nav-link">Service</a></li>
                 <li class="nav-items"><a href="" class="nav-link">Contact</a></li>
                 <li class="nav-items"><a href="" class="nav-link">About</a></li>
@@ -40,8 +44,8 @@
                 <p class="banner-description">A huge selection of health and fitness content, healthy recipes and
                     transformation stories to help you get fit and stay fit!</p>
                 <div class="banner-button-content">
-                    <button class="banner-button">Join Club Now!</button>
-                    <button class="download banner-button">Download App</button>
+                    <button class="banner-button hover-button">Join Club Now!</button>
+                    <button class="download banner-button hover-download">Download App</button>
                 </div>
             </div>
             <!-- banner image -->
@@ -52,6 +56,11 @@
             <div>
                 <button id="card-button">
                     <div class="circle"></div>
+
+                    <div class="icon-video">
+                        <i class="bi bi-play-circle-fill"></i>
+                    </div>
+
                     <div class="card-button-text">
                         <span class="button-three">350+</span>
                         <br>
@@ -77,15 +86,22 @@
     </header>
     <!-- header end here -->
 
+
+    <!-- main part start here -->
     <main>
         <section>
+            <!-- habit section start here -->
             <div class="habit-container">
+
+                <!-- habit section title -->
                 <div class="habit-title">
                     <h1 class="section-title">Change Your Habits</h1>
                     <p class="description-color section-description">We believe fitness should be accessible to
                         everyone,
                         everywhere, regardless of income or access to a gym.</p>
                 </div>
+
+                <!-- habit section images -->
                 <div class="habit-images">
                     <div class="habit-image">
                         <img src="images/movement.png" alt="">
@@ -125,20 +141,27 @@
                     </div>
                 </div>
             </div>
+            <!-- habit section end here -->
         </section>
 
+        <!-- healthy food section start here -->
         <section class="healthy-food">
             <div>
+                <!-- healthy food title start here -->
                 <div class="habit-title">
                     <h1 class="section-title">Keep Daily Healthy Food</h1>
-                    <p class="description-color section-description">Healthy food is very important for keeping our fitness. So, eat daily healthy food and enjoy in life.</p>
+                    <p class="description-color section-description">Healthy food is very important for keeping our
+                        fitness. So, eat daily healthy food and enjoy in life.</p>
                 </div>
+
+                <!-- healthy food images start here -->
                 <div class="healthy-food-container habit-images">
                     <div class="habit-image food-container">
                         <img src="images/hydration.jpg" alt="">
                         <div class="food-paragraph habit-image-content ">
                             <h5 class="habit-image-title">Hydration</h5>
-                            <p class="description-color habit-image-description">It keeps our body fitness properly.</p>
+                            <p class="description-color habit-image-description">It keeps our body fitness properly. Fit
+                                for body take healthy food.</p>
                         </div>
                     </div>
 
@@ -146,7 +169,8 @@
                         <img src="images/fruits-and-vegetables.jpg" alt="">
                         <div class="food-paragraph habit-image-content ">
                             <h5 class="habit-image-title">Fruits and Vegetables</h5>
-                            <p class="description-color habit-image-description">It keeps our body fitness properly.</p>
+                            <p class="description-color habit-image-description">It keeps our body fitness properly. Fit
+                                for body take healthy food.</p>
                         </div>
                     </div>
 
@@ -154,7 +178,8 @@
                         <img src="images/protein.jpg" alt="">
                         <div class="habit-image-content">
                             <h5 class="habit-image-title">Lean Proteins</h5>
-                            <p class="description-color habit-image-description">It keeps our body fitness properly.</p>
+                            <p class="description-color habit-image-description">It keeps our body fitness properly. Fit
+                                for body take healthy food.</p>
                         </div>
                     </div>
 
@@ -162,43 +187,63 @@
                         <img src="images/whole-grains.jpg" alt="">
                         <div class="habit-image-content">
                             <h5 class="habit-image-title">Whole Grains</h5>
-                            <p class="description-color habit-image-description">It keeps our body fitness properly.</p>
+                            <p class="description-color habit-image-description">It keeps our body fitness properly. Fit
+                                for body take healthy food.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- habit section end here -->
 
-        <!-- section.run-easily>.run-text+.run-image -->
+
+        <!-- run easily section start here -->
+
+        <!-- section.run-easily>.run-text+.run-image = shortcut-->
         <section class="run-easily">
             <div class="run-text">
                 <h1 class="section-title run-title">Run an Extra <br> Mile Easily</h1>
-                <p class="description-color section-description run-description">We believe fitness should be accessible
-                    to everyone, everywhere, regardless
-                    of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="description-color section-description             run-description">We believe fitness should be
+                    accessible
+                    to everyone, everywhere, regardlessof income or access to a gym. With hundreds of professional
+                    workouts.</p>
+
                 <div class="run-button-content">
-                    <button class="run-button banner-button">Join Now</button>
+                    <button class="run-button banner-button hover-button">Join Now</button>
                 </div>
+
             </div>
             <div class="run-image">
                 <img src="images/run.jpg" alt="">
             </div>
         </section>
+        <!-- run easily section end here -->
 
-        <!-- section.bmi-title>h1{BMI Calculator}+p{We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.} -->
+
+
+        <!-- BMI calculate section (myself research and created) start here-->
+
+        <!-- BMI title create start here -->
+
+        <!-- section.bmi-title>h1{BMI Calculator}+p{We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.} = shortcut-->
 
         <section class="bmi-title">
             <h1 class="section-title run-title">BMI Calculator</h1>
-            <p class="description-color section-description run-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <p class="description-color section-description run-description">We believe fitness should be accessible to
+                everyone, everywhere, regardless of income or access to a gym.</p>
         </section>
+        <!-- BMI title create end here -->
+
+
 
         <section class="bmi">
             <div class="bmi-container">
+                <!-- BMI chart create start here -->
                 <div>
                     <table class="bmi-table">
                         <h2 class="bmi-table-header"> BMI Calculator Chart</h2>
                         <thead>
-                            <tr>
+                            <tr class="bmi-header">
                                 <th>BMI </th>
                                 <th>Weight Status</th>
                             </tr>
@@ -223,20 +268,21 @@
                         </tbody>
                     </table>
                 </div>
+                <!-- BMI chart create start here -->
 
+                <!-- BMI input and option form create start here -->
                 <div class="form-container">
                     <div>
                         <h2>Calculate your BMI</h2>
-                        <p class="calculate-paragraph description-color section-description">We believe fitness should be accessible to everyone, everywhere,
+                        <p class="calculate-paragraph description-color section-description">We believe fitness should
+                            be accessible to everyone, everywhere,
                             regardless of income or access to a gym.</p>
                     </div>
                     <form class="bmi-input">
                         <div class="form-group">
                             <!-- <label for="name">Name:</label> -->
-                            <!-- <input type="text" id="name" name="name" placeholder="Enter your name" required> -->
 
                             <input type="number" id="height" placeholder="Height/cm" required>
-
                         </div>
 
                         <div class="form-group">
@@ -265,20 +311,25 @@
                             </select>
                         </div>
                         <br>
-                        <button class="calculate-button">Calculate</button>
+                        <button class="calculate-button hover-button">Calculate</button>
                     </form>
                 </div>
+                <!-- BMI input and option form create end here -->
             </div>
-
         </section>
+        <!-- BMI calculate section (myself research and created) start here-->
 
+
+        <!-- team section start here -->
         <section class="team">
+            <!-- team section title start here -->
             <div class="run-text team-title">
                 <h1 class="section-title run-title">Meet Our Team</h1>
                 <p class="description-color">We believe fitness should be accessible to everyone, everywhere, regardless
                     of income or access to a gym.</p>
             </div>
 
+            <!-- team section images start here -->
             <div class="team-images">
                 <div class="team-image">
                     <img src="images/trainer1.png" alt="">
@@ -327,9 +378,15 @@
                     </div>
                 </div>
             </div>
+            <!-- team section images start here -->
         </section>
-    </main>
+        <!-- team section end here -->
 
+    </main>
+    <!-- main part end here -->
+
+
+    <!-- footer start here -->
     <footer>
         <section id="footer-section">
             <div>
@@ -364,6 +421,7 @@
             All right reserved @Fitness 2024
         </div>
     </footer>
+    <!-- footer start here -->
 </body>
 
 </html>
